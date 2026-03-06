@@ -11,22 +11,30 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "desk_theme",
-# 		"logo": "/assets/desk_theme/logo.png",
-# 		"title": "Desk Theme",
-# 		"route": "/desk_theme",
-# 		"has_permission": "desk_theme.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "desk_theme",
+		"logo": "/assets/desk_theme/logo.png",
+		"title": "Desk Theme",
+		"route": "/desk_theme",
+		# "has_permission": "desk_theme.api.permission.has_app_permission"
+	}
+]
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/desk_theme/css/desk_theme.css"
-# app_include_js = "/assets/desk_theme/js/desk_theme.js"
+app_include_css = [
+    "/assets/desk_theme/css/desk_theme.css",
+]
+
+app_include_js = [
+    "/assets/desk_theme/js/sidebar_settings.js",
+]
+
+
+
 
 # include js, css files in header of web template
 # web_include_css = "/assets/desk_theme/css/desk_theme.css"
@@ -43,7 +51,6 @@ app_license = "mit"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
