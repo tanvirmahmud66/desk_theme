@@ -30,7 +30,7 @@ app_include_css = [
 ]
 
 app_include_js = [
-    "/assets/desk_theme/js/sidebar_settings.js",
+    # "/assets/desk_theme/js/sidebar_settings.js",
 ]
 
 
