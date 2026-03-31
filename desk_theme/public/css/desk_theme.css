@@ -414,8 +414,8 @@ input[type="checkbox"]:disabled {
 	color: #ffffff !important;
 }
 
-.datatable {
-  --dt-border-color: #3029f6ad !important;
+.dt-cell {
+	border: 1px solid #0943e1a1 !important;
 }
 
 .datatable .dt-header .dt-cell--header .dt-cell__content {
