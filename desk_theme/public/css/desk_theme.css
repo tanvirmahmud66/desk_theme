@@ -439,3 +439,54 @@ input[type="checkbox"]:disabled {
 .datatable .dt-row-filter .dt-filter.dt-input {
 	background-color: #a4a4a491 !important;
 }
+
+
+
+/* Professional Links Widget Styling - Smooth Hover Fix */
+.widget.links-widget-box .link-item {
+    font-size: 0.9rem !important;
+    font-weight: 500 !important;
+    color: #374151 !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+    margin-bottom: 4px !important;
+    display: flex !important;
+    align-items: center !important;
+    background-color: transparent !important;
+
+    /* FIX: avoid transition: all */
+    transition: background-color 0.22s ease, 
+                transform 0.22s ease, 
+                box-shadow 0.22s ease !important;
+
+    will-change: transform, background-color;
+}
+
+.widget.links-widget-box .link-item:hover {
+    /* FIX: use solid smooth bg instead of gradient */
+    background-color: rgba(48, 41, 246, 0.10) !important;
+    transform: translateX(3px) !important;
+    box-shadow: 0 3px 8px rgba(48, 41, 246, 0.10) !important;
+}
+
+.widget.links-widget-box .link-item .link-text {
+    color: #374151 !important;
+    transition: color 0.18s ease !important;
+}
+
+.widget.links-widget-box .link-item:hover .link-text {
+    color: #3029f6 !important;
+}
+
+.widget.links-widget-box .link-item svg,
+.widget.links-widget-box .link-item .icon {
+    color: #6b7280 !important;
+    transition: color 0.18s ease, transform 0.18s ease !important;
+    flex-shrink: 0;
+}
+
+.widget.links-widget-box .link-item:hover svg,
+.widget.links-widget-box .link-item:hover .icon {
+    color: #3029f6 !important;
+    transform: scale(1.05) !important;
+}
