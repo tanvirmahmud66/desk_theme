@@ -332,63 +332,93 @@ input[type="checkbox"]:disabled {
 	color: #0746ac !important;
 }
 
-
-
-
-
-
 .list-row-container:hover {
-  background-color: #c5d5ee !important;
+	background-color: #c5d5ee !important;
 }
 
 .list-row-container:hover .level-right {
-  background-color: #c5d5ee;
+	background-color: #c5d5ee;
 }
 
 /* ================================= workflow state ==================================== */
 
-
-
 .indicator-pill {
-  height: 23px !important;
+	height: 23px !important;
 }
 
-.indicator-pill.blue{
-  color: #fff !important;
-  background: #0074d4 !important;
+.indicator-pill.blue {
+	color: #fff !important;
+	background: #0074d4 !important;
 }
 
-.indicator-pill.light-blue{
-  background: #0d86e9 !important;
-  color: #ffffff !important;
+.indicator-pill.light-blue {
+	background: #0d86e9 !important;
+	color: #ffffff !important;
 }
 
-.indicator-pill.orange{
-  background: #dc8009 !important;
-  color: #ffffff !important;
+.indicator-pill.orange {
+	background: #dc8009 !important;
+	color: #ffffff !important;
 }
 
-.indicator-pill.red{
-  background-color: #cf2424 !important;
-  color: #ffffff !important;
+.indicator-pill.red {
+	background-color: #cf2424 !important;
+	color: #ffffff !important;
 }
 
-.indicator-pill.green{
-  background-color: #0f844f !important;
-  color: #ffffff !important;
+.indicator-pill.green {
+	background-color: #0f844f !important;
+	color: #ffffff !important;
 }
 
-.indicator-pill.cyan{
-    background: #267a94 !important;
-    color: white !important;
+.indicator-pill.cyan {
+	background: #267a94 !important;
+	color: white !important;
 }
 
-.indicator-pill.grey{
-    background: #3d3d3d9f !important;
-    color: white !important;
+.indicator-pill.grey {
+	background: #3d3d3d9f !important;
+	color: white !important;
 }
 
-.indicator-pill.gray{
-    background: #3d3d3d9f !important;
-    color: white !important;
+.indicator-pill.gray {
+	background: #3d3d3d9f !important;
+	color: white !important;
+}
+
+/* ============================================ Others ======================================== */
+
+.widget .widget-head .widget-label .widget-title {
+	font-size: 1.4rem !important;
+	font-weight: 600 !important;
+	color: #0a234ac9 !important;
+}
+
+.widget.dashboard-widget-box {
+	border: 1px solid #9f9e9ec4 !important;
+}
+
+.chart-container .axis line {
+	stroke: #09284652 !important;
+}
+
+.list-row-head {
+	background-color: #243270 !important;
+}
+
+.list-row-col > span {
+	color: white;
+}
+
+.level-item {
+	color: #ffffff !important;
+}
+
+.datatable .dt-header .dt-cell--header .dt-cell__content {
+	background-color: #0f2572 !important;
+}
+
+.datatable .dt-header .dt-cell--header .dt-cell__content {
+	background-color: #0f2572;
+	color: white !important;
 }
