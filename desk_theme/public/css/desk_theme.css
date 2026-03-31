@@ -420,7 +420,9 @@ input[type="checkbox"]:disabled {
 .datatable .dt-cell {
 	border: 1px solid #1b43d488 !important;
 }
-
+.dt-cell {
+	border: 1px solid #1b43d488 !important;
+}
 .datatable .dt-dropdown__toggle {
 	background-color: rgba(255, 255, 255, 0) !important;
 }
