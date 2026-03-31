@@ -415,7 +415,11 @@ input[type="checkbox"]:disabled {
 }
 
 .datatable .dt-cell {
-	border: 1px solid #0f2572 !important;
+	border: 1px solid #1b43d488 !important;
+}
+
+.datatable .dt-dropdown__toggle {
+  background-color:rgba(255, 255, 255, 0) !important;
 }
 
 .datatable .dt-header .dt-cell--header .dt-cell__content {
@@ -425,4 +429,9 @@ input[type="checkbox"]:disabled {
 .datatable .dt-header .dt-cell--header .dt-cell__content {
 	background-color: #0f2572;
 	color: white !important;
+}
+
+
+.datatable .dt-row-filter .dt-filter.dt-input {
+  background-color: #a4a4a491 !important;
 }
