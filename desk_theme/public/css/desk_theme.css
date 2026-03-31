@@ -419,7 +419,7 @@ input[type="checkbox"]:disabled {
 }
 
 .datatable .dt-dropdown__toggle {
-  background-color:rgba(255, 255, 255, 0) !important;
+	background-color: rgba(255, 255, 255, 0) !important;
 }
 
 .datatable .dt-header .dt-cell--header .dt-cell__content {
@@ -431,7 +431,6 @@ input[type="checkbox"]:disabled {
 	color: white !important;
 }
 
-
 .datatable .dt-row-filter .dt-filter.dt-input {
-  background-color: #a4a4a491 !important;
+	background-color: #a4a4a491 !important;
 }
