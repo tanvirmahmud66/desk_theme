@@ -239,11 +239,12 @@ body:not(.full-width) [data-page-route="Workspaces"] .layout-main {
 	color: #1e293b !important;
 	background-color: #ffffff !important;
 
-	border: 1px solid #d1d5db !important;
+	border: 1px solid #5a5a5ac7 !important;
 	border-radius: 8px !important;
 
 	box-shadow: none !important;
 	transition: all 0.25s ease !important;
+	padding: 1rem !important;
 }
 
 /* Hover */
@@ -413,6 +414,10 @@ input[type="checkbox"]:disabled {
 .level-item {
 	color: #ffffff !important;
 }
+
+
+
+
 
 .datatable{
 	--dt-border-color:#1b43d488 !important;
